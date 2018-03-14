@@ -1,20 +1,22 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "message": "you're awesome!!",
-      "user": {
+  "posts": {
+    "posts": [
+      {
         "id": 1,
-        "name": "Kelvin"
-      }
-    },
-    {
-      "id": 2,
-      "message": "I'm happy",
-      "user": {
+        "message": "you're awesome!!",
+        "user": {
+          "id": 1,
+          "name": "Kelvin"
+        }
+      },
+      {
         "id": 2,
-        "name": "John"
+        "message": "I'm happy",
+        "user": {
+          "id": 2,
+          "name": "John"
+        }
       }
-    }
-  ]
+    ]
+  }
 }
